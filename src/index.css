@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One|Source+Sans+Pro');
+@import url("https://db.onlinewebfonts.com/c/e8265e33dfba2c2751ec163c68553e74?family=Gilroy+GEO+Heavy");
 
 * {
 	padding: 0;
@@ -16,7 +16,7 @@ body {
 	height: 100vh;
 
   color: #ecf0f1;
-	font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Gilroy GEO Heavy";
 	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 	width: 100%;
 	overflow: hidden;
@@ -38,7 +38,6 @@ body {
 }
 
 .title {
-		font-family: 'Poiret One', cursive;
 	font-size: 4rem;
   margin-bottom: .5rem;
 	width: 100%;
@@ -120,5 +119,12 @@ body {
 @media (max-width:600px) {
   .title{
     font-size: 3.2rem;
+  }
+
+  .sub-title {
+	font-weight: 500;
+	border-top: .1rem solid #fff;
+	padding: 20px 0rem;
+	  text-align: center;
   }
 }
