@@ -20,7 +20,11 @@ body {
 	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 	width: 100%;
 	overflow: hidden;
+	/* background-image: url('./assets/site.jpg');
+	background-size: cover;
+background-repeat: no-repeat; */
 }
+
 
 .main {
 	height: 100vh;
@@ -28,6 +32,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.bg{
+
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
 }
 
 .contact {
