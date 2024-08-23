@@ -1,13 +1,13 @@
 import './App.css'
-import bg from "./assets/site.jpg"
 
 
 function App() {
 
   return (
-    <>
-    <img src={bg} alt='bg'  className='bg'/>
-    </>
+    <div className='main'>
+    <p className='under_con'>the website is under construction</p>
+    <p className='email'>Email: office@onme.agency</p>
+    </div>
   )
 }
 
